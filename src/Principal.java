@@ -7,45 +7,33 @@ public class Principal {
     public static void main(String[] args) {
 
         Carro carro01 = new Carro();
-        Carro carro02 = new Carro();
-        
         Scanner scan = new Scanner (System.in);
         
-        System.out.print(" nome "); 
+        System.out.print("Nome: "); 
         carro01.nome = scan.next();
         
-        System.out.print(" marca ");
+        System.out.print("Marca: ");
         carro01.marca = scan.next();
         
-        System.out.print(" cor ");
+        System.out.print("Cor: ");
         carro01.cor = scan.next();
         
-        System.out.print("fabricacao");
+        System.out.print("Fabricacao: ");
         carro01.fabricacao = scan.next ();
         
-        System.out.print ("lagura");
+        System.out.print ("Lagura: ");
         carro01.largura = scan.next ();
         
-        System.out.print ("peso");
-        carro01.largura = scan.next ();
+        System.out.print ("Peso: ");
+        carro01.peso = scan.next ();
         
         
-        
-//     carro01.nome  =  "Palio";
-//     carro01.marca =  "Fiat";
-//     carro01.cor   =  "Branco";
-//     carro01.fabricacao = "2016";
-//     carro01.largura = "1,63 MM";
-//     carro01.peso = "940 Kg";
+        System.out.println("Nome: " + carro01.nome);
+        System.out.println("Marca: " + carro01.marca);
+        System.out.println("Cor: " + carro01.cor);
+        System.out.println("Fabricacao: " + carro01.fabricacao);
+        System.out.println("Largura: " + carro01.largura);
+        System.out.println("Peso: " + carro01.peso);
 
-//    carro02.nome = "Spin";
-//    carro02.marca = "Chevrolet";
-//    carro02.cor = "Azul";
-//    carro02.fabricacao = "2019";
-//    carro02.largura = "3.50 MM";
-//    carro02.peso = "1.200 kg
-
-        System.out.println("Nome" + carro01.nome);
-        System.out.println("Nome" + carro02.nome);
     }
 }
